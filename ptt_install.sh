@@ -1,5 +1,5 @@
 #!/bin/bash
-# https://raw.githubusercontent.com/nahamsec/bbht/master/install.sh
+
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
