@@ -1,2 +1,2 @@
 # ptt
-Penetration Testing Tools
+Penetration Testing Tools Setup for Debian
