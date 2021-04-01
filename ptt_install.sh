@@ -29,13 +29,7 @@ sudo apt-get install -y rename
 sudo apt-get install -y xargs
 sudo apt-get install -y tmux
 
-echo "installing bash_profile aliases from ptt_profile"
-git clone https://github.com/kilger/ptt_profile
-cd ptt_profile
-cat bash_profile >> ~/.bash_profile
-source ~/.bash_profile
-cd ~/toolz/
-echo "done"
+
 
 
 
