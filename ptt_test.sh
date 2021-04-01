@@ -12,7 +12,8 @@
 echo "installing bash_aliases from ptt_profile"
 git clone https://github.com/kilger/ptt_profile.git
 cd ptt_profile
-#cat bash_profile >> ~/.bash_aliases
-#source ~/.bash_aliases
+touch  ~/.bash_aliases
+cat bash_profile >> ~/.bash_aliases
+source ~/.bash_aliases
 #cd ~/toolz/
 #echo "done".git
