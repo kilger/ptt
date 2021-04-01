@@ -1,5 +1,14 @@
 #!/bin/bash
 
+#############################################
+# Check to see if script is running as root #
+#############################################
+#if [ "$EUID" -ne 0 ]
+#  then echo "Please run as root"
+#  exit
+#fi
+
+
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
@@ -18,6 +27,7 @@ sudo apt-get install -y python-dnspython
 sudo apt-get install -y git
 sudo apt-get install -y rename
 sudo apt-get install -y xargs
+sudo apt-get install -y tmux
 
 echo "installing bash_profile aliases from ptt_profile"
 git clone https://github.com/kilger/ptt_profile
