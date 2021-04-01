@@ -27,6 +27,14 @@ sudo apt-get install -y rename
 sudo apt-get install -y xargs
 sudo apt-get install -y tmux
 
+echo "installing bash_profile aliases from recon_profile"
+git clone https://github.com/nahamsec/recon_profile.git
+cd recon_profile
+cat bash_profile >> ~/.bash_profile
+source ~/.bash_profile
+cd ~/tools/
+echo "done"
+
 #install go
 if [[ -z "$GOPATH" ]];then
 echo "It looks like go is not installed, would you like to install it now"
