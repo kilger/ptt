@@ -8,10 +8,8 @@
 #  exit
 #fi
 
-
 sudo apt-get -y update
 sudo apt-get -y upgrade
-
 
 sudo apt-get install -y libcurl4-openssl-dev
 sudo apt-get install -y libssl-dev
@@ -28,10 +26,6 @@ sudo apt-get install -y git
 sudo apt-get install -y rename
 sudo apt-get install -y xargs
 sudo apt-get install -y tmux
-
-
-
-
 
 #install go
 if [[ -z "$GOPATH" ]];then
